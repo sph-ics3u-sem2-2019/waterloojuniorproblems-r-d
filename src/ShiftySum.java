@@ -3,7 +3,6 @@ public class ShiftySum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner in=new Scanner(System.in);
 		/*
 		 * Follow the instructions in Junior Problem 2.pdf.
 		 * Use the following data to test your program and record your answers
@@ -23,6 +22,19 @@ public class ShiftySum {
 		 * 14) 2503,1
 		 * 15) 7868,2
 		 */
+	Scanner in=new Scanner(System.in);
+	int numN=0;
+	int numk=0;
+	System.out.println("Give me a number");
+	numN=in.nextInt();
+	System.out.println("Give me a second number");
+	numk=in.nextInt();
+	double total=numN+numN*Math.pow(10,numk);
+	System.out.println(numN+"+"+numN*Math.pow(10, numk));
+	
+	
+	
+	
+	
 	}
-
 }
